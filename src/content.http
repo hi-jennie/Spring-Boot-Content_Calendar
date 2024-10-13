@@ -1,0 +1,43 @@
+GET  http://localhost:8080/api/content
+###
+GET http://localhost:8080/api/content/2
+###
+POST http://localhost:8080/api/content
+Content-Type: application/json
+
+{
+  "id": 4,
+  "title": "Third Content",
+  "description": "This is the second content",
+  "status": "IDEA",
+  "contentType": "ARTICLE",
+  "dataCreated": "2024-10-13T19:11:06.490704",
+  "dataUpdated": null,
+  "url": "http://example.com"
+}
+
+###
+PUT http://localhost:8080/api/content/4
+Content-Type: application/json
+
+{
+  "id": 4,
+  "title": "Forth Content",
+  "description": "This is the second content",
+  "status": "IDEA",
+  "contentType": "ARTICLE",
+  "dataCreated": "2024-10-13T19:11:06.490704",
+  "dataUpdated": null,
+  "url": "http://example.com"
+}
+
+###
+DELETE http://localhost:8080/api/content/4
+
+
+
+
+
+
+
+

@@ -7,7 +7,7 @@ public record Content(
         String title,
         String description,
         Status status,
-        Type ContentType,
+        Type contentType,
         LocalDateTime dataCreated,
         LocalDateTime dataUpdated,
         String url) {
