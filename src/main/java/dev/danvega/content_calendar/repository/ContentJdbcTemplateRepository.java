@@ -84,3 +84,15 @@ public class ContentJdbcTemplateRepository {
         // jdbcTemplate.queryForObject() 查询数据库时没有找到与给定 id 匹配的记录，它会抛出一个 EmptyResultDataAccessException 异常
     }
 }
+
+/*
+ 可以升级为spring data jpa
+ 通过 Spring Data，你可以省略：
+	1.	手动 SQL 查询：无需再写 SELECT、INSERT、UPDATE 等语句。
+	2.	数据映射逻辑：不用再处理 ResultSet，Spring Data 自动将数据库记录映射为对象。
+	3.	异常处理：Spring Data 会自动处理查询为空的情况，并提供 Optional 类型的支持。
+	4.	重复的 CRUD 代码：findAll()、save()、deleteById() 等常用方法都已内置。
+
+  如果使用 Spring Data，你的代码将变得更简洁、可读性更高。
+  例如，你的 ContentJdbcTemplateRepository 中大量冗余的查询和数据操作都可以直接用 JpaRepository 替代，这样你可以将更多精力放在业务逻辑上，而不是处理数据库操作。
+*/
