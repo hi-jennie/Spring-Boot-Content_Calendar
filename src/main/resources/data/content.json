@@ -1,0 +1,32 @@
+[
+  {
+    "id": null,
+    "title": "title1",
+    "description": "description",
+    "status": "IDEA",
+    "contentType": "VIDEO",
+    "dateCreated": "2024-10-15T16:37:01.060925",
+    "dateUpdated": "2024-10-15T16:38:01.060933",
+    "url": "http://www.baidu.com"
+  },
+  {
+    "id": null,
+    "title": "title2",
+    "description": "description",
+    "status": "IDEA",
+    "contentType": "VIDEO",
+    "dateCreated": "2024-10-15T16:37:01.060925",
+    "dateUpdated": "2024-10-15T16:38:01.060933",
+    "url": "http://www.baidu.com"
+  },
+  {
+    "id": null,
+    "title": "title3",
+    "description": "description",
+    "status": "IDEA",
+    "contentType": "VIDEO",
+    "dateCreated": "2024-10-15T16:37:01.060925",
+    "dateUpdated": "2024-10-15T16:38:01.060933",
+    "url": "http://www.baidu.com"
+  }
+]
