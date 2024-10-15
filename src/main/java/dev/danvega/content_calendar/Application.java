@@ -1,5 +1,6 @@
 package dev.danvega.content_calendar;
 
+import dev.danvega.content_calendar.config.ContentCalendarProperties;
 import dev.danvega.content_calendar.model.Content;
 import dev.danvega.content_calendar.model.Status;
 import dev.danvega.content_calendar.model.Type;
@@ -7,10 +8,12 @@ import dev.danvega.content_calendar.repository.ContentRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 
 import java.time.LocalDateTime;
 
+@EnableConfigurationProperties(ContentCalendarProperties.class)
 @SpringBootApplication
 public class Application {
 
